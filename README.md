@@ -4,9 +4,15 @@ Oficina LÖVE was an online game development workshop taught at UNESP/Brazil in 
 The final project of the workshop was the development of a Pong game, using the game development framework Löve2d.
 
 Credits:
+
 Moon Pong - Anna Kaneko
+
 Guarapong - Gustavo Troya Lourenço
+
 Kitty Pong - Letícia Mestre
+
 C-Pong - Mateus Augusto Tavano
+
 Madoka Pong - Rocco Cavenaghi
+
 Skelepong - Thaís Taldivo
