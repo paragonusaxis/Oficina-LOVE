@@ -1,6 +1,6 @@
 ---
 title: Pong
-permalink: {{site.baseurl}}/pong/
+permalink: /pong/
 ---
 
 Pong projects

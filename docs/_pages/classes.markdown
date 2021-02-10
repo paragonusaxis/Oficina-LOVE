@@ -1,6 +1,6 @@
 ---
 title: Classes
-permalink: {{site.baseurl}}/classes/
+permalink: /classes/
 ---
 
 Classes page

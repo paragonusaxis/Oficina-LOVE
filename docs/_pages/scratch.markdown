@@ -1,6 +1,6 @@
 ---
 title: Scratch
-permalink: {{site.baseurl}}/scratch/
+permalink: /scratch/
 ---
 
 Scratch projects

@@ -23,7 +23,7 @@ email: roccopocus13@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
  Oficina LÖVE was an online game development workshop taught at UNESP/Brazil in the second semester of 2020. The workshop was aimed at the teaching of core game
  programming concepts to professional designers, so that they could better implement their own personal projects.
-baseurl: "/Oficina-LOVE/" # the subpath of your site, e.g. /blog
+baseurl: "/Oficina-LOVE" # the subpath of your site, e.g. /blog
 url: "https://paragonusaxis.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  paragonusaxis
 
