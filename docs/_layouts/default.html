@@ -8,7 +8,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@600&display=swap" rel="stylesheet">  
 
-        <link rel="stylesheet" href="Oficina-LOVE/assets/styles/main.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/styles/main.css">
         
         <title>{{site.title}} | {{page.title}}</title>
     </head>
@@ -17,11 +17,11 @@
             <div class="nav-bar">
                 <div class="nav-bar__site-title"><span class="blue">oficina</span><span class="pink">löve</span></div>
                 <ul class="nav-bar__nav">
-                    <li><a href="/" {% if page.title == "Home" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Home</a></li>
-                    <li><a href="/classes" {% if page.title == "Classes" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Classes</a></li>
-                    <li><a href="/scratch" {% if page.title == "Scratch" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Scratch</a></li>
-                    <li><a href="/pong" {% if page.title == "Pong" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Pong</a></li>
-                    <li><a href="/sobre" {% if page.title == "Sobre" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Sobre</a></li>
+                    <li><a href="{{ site.baseurl }}/" {% if page.title == "Home" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Home</a></li>
+                    <li><a href="{{ site.baseurl }}/classes" {% if page.title == "Classes" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Classes</a></li>
+                    <li><a href="{{ site.baseurl }}/scratch" {% if page.title == "Scratch" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Scratch</a></li>
+                    <li><a href="{{ site.baseurl }}/pong" {% if page.title == "Pong" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Pong</a></li>
+                    <li><a href="{{ site.baseurl }}/sobre" {% if page.title == "Sobre" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Sobre</a></li>
                 </ul>
             </div>
         </nav>
