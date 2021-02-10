@@ -1,6 +1,6 @@
 ---
 title: Sobre
-permalink: /sobre/
+permalink: {{site.baseurl}}/sobre/
 ---
 
 About page
