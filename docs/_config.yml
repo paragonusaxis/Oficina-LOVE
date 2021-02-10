@@ -18,21 +18,43 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Oficina LÖVE
+email: roccopocus13@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+ Oficina LÖVE was an online game development workshop taught at UNESP/Brazil in the second semester of 2020. The workshop was aimed at the teaching of core game
+ programming concepts to professional designers, so that they could better implement their own personal projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  paragonusaxis
 
 # Build settings
 theme: null
 plugins:
   - jekyll-feed
+
+# Front Matter defaults
+defaults:
+  -
+    scope:
+      type: posts
+      path: _posts
+    values:
+      is_post: true
+      layout: post
+      permalink: /blog/:categories/:title/
+  -
+    scope:
+      type: pages
+      path: _pages
+    values:
+      is_post: false
+      layout: default
+
+include: [_pages]
+
+
+sass:
+  style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default.

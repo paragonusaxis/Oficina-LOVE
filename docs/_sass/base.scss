@@ -1,0 +1,67 @@
+/*
+    font-family: 'Abril Fatface', cursive;
+
+    font-family: 'Limelight', cursive;
+
+    font-family: 'Monoton', cursive;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Neuton', serif;
+
+    font-family: 'Open Sans', sans-serif;
+*/
+
+:root {
+    --pink-color: #e0245c;
+    --blue-color: #2371a1;
+    --dark-color: #1b1b1b;
+    --pale-color: #d3f0f0;
+    --medium-color: #ace7e4;
+    --white: rgb(228, 245, 247);
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.7;
+    color: #1b1b1b;
+    background-color: var(--medium-color);
+    box-sizing: border-box;
+}
+
+main {
+    margin: 30vh 20vw 15vh;
+    padding: 7rem;
+    text-align: justify;
+    hyphens: auto;
+    background-color: var(--white);
+    border-radius: 30px;
+}
+
+.pink {
+    color: var(--pink-color);
+}
+
+.blue {
+    color: var(--blue-color);
+}
+
+.header1 {
+    font-size: 3.0rem;
+    font-family: 'Quicksand', sans-serif;
+}
+

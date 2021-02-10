@@ -1,0 +1,49 @@
+.nav-bar {
+
+}
+
+.nav-bar__site-title {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5rem;
+    margin-right: auto;
+
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 22vw;
+    background-color: var(--pale-color);
+    box-shadow: 0 1px 10px 1px rgba(91, 111, 126, 0.2);
+}
+
+.nav-bar__nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.nav-bar__nav__link {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: inherit;
+    margin: 0 1.5rem;
+}
+
+.nav-bar__nav__active-page {
+    color: var(--pink-color);
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin: 0 1.5rem;
+}
+
+.nav-bar__nav__link:hover {
+    color: var(--blue-color);
+}
