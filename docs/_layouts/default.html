@@ -3,33 +3,43 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@600&display=swap" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@600&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">  
 
         <link rel="stylesheet" href="{{ site.baseurl }}/assets/styles/main.css">
         
         <title>{{site.title}} | {{page.title}}</title>
     </head>
-    <body>
+    <body class="body-default">
         <nav>
             <div class="nav-bar">
-                <div class="nav-bar__site-title"><span class="blue">oficina</span><span class="pink">löve</span></div>
+                <a class="nav-bar__logo-box" href="{{ site.baseurl }}/">
+                    {% include love-icon.html %}
+                    <div class="nav-bar__site-title"><span class="blue">oficina</span><span class="pink">löve</span></div>
+                </a>
                 <ul class="nav-bar__nav">
                     <li><a href="{{ site.baseurl }}/" {% if page.title == "Home" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Home</a></li>
-                    <li><a href="{{ site.baseurl }}/classes" {% if page.title == "Classes" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Classes</a></li>
+                    <li><a href="{{ site.baseurl }}/classes" {% if page.title == "Classes" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Aulas</a></li>
                     <li><a href="{{ site.baseurl }}/scratch" {% if page.title == "Scratch" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Scratch</a></li>
                     <li><a href="{{ site.baseurl }}/pong" {% if page.title == "Pong" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Pong</a></li>
-                    <li><a href="{{ site.baseurl }}/sobre" {% if page.title == "Sobre" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Sobre</a></li>
                 </ul>
             </div>
         </nav>
-        <main>
-            {{content}}
+        <main class="main-default">
+            {% include giraffe-pink.html %}
+            {% include fish-pink.html %}
+            <div {% if page.title == "Home" %} class="main__sidebox main__sidebox-lilac" {% endif %}
+            {% if page.title == "Classes" %} class="main__sidebox main__sidebox-pale-pink" {% endif %}
+            {% if page.title == "Sobre" %} class="main__sidebox main__sidebox-yellow" {% endif %}>
+                {{content}}
+            </div>
+            <div class="main__content">
+                {{content}}
+            </div>
         </main>
         <footer>
-            <br><strong>Oficina LÖVE | UNESP - Bauru<br>2020</strong><br>
+            <strong>Oficina LÖVE | UNESP - Bauru<br>2020</strong>
         </footer>
     </body>
 </html>

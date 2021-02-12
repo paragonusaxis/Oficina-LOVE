@@ -6,25 +6,36 @@ permalink: /
 title: Home
 ---
 
-# olá, mundo! 
+# print('Olá, mundo!') 
 {: .header1 .blue}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Pretium vulputate sapien nec sagittis aliquam malesuada. Cum sociis natoque penatibus et. Aliquet risus feugiat in ante metus. Auctor eu augue ut lectus. Facilisis volutpat est velit egestas dui id ornare arcu. Nulla aliquet enim tortor at auctor. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Maecenas pharetra convallis posuere morbi leo urna molestie. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Cursus vitae congue mauris rhoncus. Vulputate sapien nec sagittis aliquam malesuada.
+Este é o site da oficina LÖVE, que aconteceu na segunda metade de 2020, durante as aulas de Design de Games do curso de Design da UNESP/Bauru. Aqui você pode encontrar os projetos que foram desenvolvidos pelos alunos participantes e até mesmo a gravação das aulas teóricas. 
+\\
+\\
+A oficina tem como foco o desenvolvimento de um jogo Pong usando a íncrivel framework de desenvolvimento de jogos [Löve2d](https://love2d.org/) e nenhum conhecimento prévio de programação é necessário para realizá-la com sucesso. As aulas teóricas são divididas em três etapas: Scratch, Lua e Löve2d. Ao fim de cada etapa será sugerido uma atividade para fixação e prática dos conteúdos aprendidos. 
+\\
+\\
+Se você se interessa por programação e por jogos, mas não sabe por onde começar a aprender, assista primeira aula da oficina e decida você mesmo se este é o caminho certo pra voce! Caso tenha alguma dúvida ou sugestão, ou apenas quer contar que fez a oficina, não exite em nos contatar!
+<br>
+<br>
+<br>
+<center><iframe class="video" src="https://www.youtube.com/embed/Qx_VfKNAYk4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<br>
+\* \* \*
+{: .center .header1 .blue}
+<br>
 
-Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi tristique. Sit amet aliquam id diam maecenas. Rutrum quisque non tellus orci ac. Sed enim ut sem viverra aliquet eget sit amet tellus. Sit amet luctus venenatis lectus. Massa sapien faucibus et molestie. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Aenean sed adipiscing diam donec adipiscing tristique risus. Tincidunt lobortis feugiat vivamus at augue. In tellus integer feugiat scelerisque varius morbi. Integer feugiat scelerisque varius morbi enim. Vel risus commodo viverra maecenas accumsan. Eu turpis egestas pretium aenean pharetra magna. At ultrices mi tempus imperdiet nulla malesuada. Purus non enim praesent elementum facilisis leo. Non pulvinar neque laoreet suspendisse interdum consectetur. Facilisis sed odio morbi quis commodo odio.
+**- Prof. Dr. Dorival Campos Rossi**{: .blue}<br>
+bauruhaus@yahoo.com.br
+\\
+\\
+**- Rocco Cavenaghi**{: .blue}<br>
+roccocavenaghi@gmail.com
+<br>
+<br>
 
-A scelerisque purus semper eget duis at tellus at. Dolor sit amet consectetur adipiscing elit pellentesque. Enim diam vulputate ut pharetra. Velit laoreet id donec ultrices tincidunt arcu non sodales. Quis enim lobortis scelerisque fermentum dui faucibus in ornare quam. Pellentesque dignissim enim sit amet venenatis urna cursus eget. Eros donec ac odio tempor orci. Ornare quam viverra orci sagittis eu volutpat. Vitae elementum curabitur vitae nunc sed velit. Id consectetur purus ut faucibus pulvinar. Duis at tellus at urna condimentum mattis. Amet dictum sit amet justo donec. Eu mi bibendum neque egestas congue quisque egestas diam in. Diam sit amet nisl suscipit. Ornare lectus sit amet est placerat in egestas. Diam phasellus vestibulum lorem sed. Orci sagittis eu volutpat odio facilisis mauris sit. Sed felis eget velit aliquet. Congue nisi vitae suscipit tellus mauris a diam. Tempor id eu nisl nunc.
+_A oficina LÖVE foi parte do trabalho de conclusão de curso do aluno de Design Rocco Cavenaghi. Para mais informações sobre o desenvolvimento da oficina, faça o download do relatório <a href="{{site.baseurl}}/assets/relatorio.pdf" download="Oficina LÖVE - Relatório">aqui</a>._
+{: .detail}
 
-Leo integer malesuada nunc vel risus commodo viverra. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Pellentesque massa placerat duis ultricies lacus sed turpis. Suspendisse potenti nullam ac tortor vitae purus. Condimentum vitae sapien pellentesque habitant morbi tristique. Egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Rhoncus mattis rhoncus urna neque viverra justo nec. Leo duis ut diam quam nulla porttitor massa id. Leo a diam sollicitudin tempor id eu nisl nunc. Commodo ullamcorper a lacus vestibulum sed arcu non odio. Orci sagittis eu volutpat odio facilisis mauris sit amet. Natoque penatibus et magnis dis parturient montes nascetur ridiculus. Tortor at risus viverra adipiscing at in tellus integer feugiat.
-
-Placerat in egestas erat imperdiet sed euismod nisi porta. Tincidunt tortor aliquam nulla facilisi. Vitae proin sagittis nisl rhoncus mattis rhoncus urna. Adipiscing elit pellentesque habitant morbi tristique senectus. Vitae nunc sed velit dignissim sodales ut eu. Nisl suscipit adipiscing bibendum est. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec. Feugiat sed lectus vestibulum mattis. Tincidunt vitae semper quis lectus nulla at. Cursus risus at ultrices mi tempus imperdiet. Non sodales neque sodales ut etiam sit amet nisl purus. Urna duis convallis convallis tellus id interdum velit laoreet id. Quam nulla porttitor massa id neque aliquam vestibulum morbi blandit. Vitae tortor condimentum lacinia quis vel eros donec ac. Fermentum posuere urna nec tincidunt praesent semper. Purus semper eget duis at tellus at urna condimentum. Quis risus sed vulputate odio ut enim. Rhoncus dolor purus non enim praesent elementum. Natoque penatibus et magnis dis parturient montes. In cursus turpis massa tincidunt dui.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Pretium vulputate sapien nec sagittis aliquam malesuada. Cum sociis natoque penatibus et. Aliquet risus feugiat in ante metus. Auctor eu augue ut lectus. Facilisis volutpat est velit egestas dui id ornare arcu. Nulla aliquet enim tortor at auctor. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Maecenas pharetra convallis posuere morbi leo urna molestie. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Cursus vitae congue mauris rhoncus. Vulputate sapien nec sagittis aliquam malesuada.
-
-Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi tristique. Sit amet aliquam id diam maecenas. Rutrum quisque non tellus orci ac. Sed enim ut sem viverra aliquet eget sit amet tellus. Sit amet luctus venenatis lectus. Massa sapien faucibus et molestie. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Aenean sed adipiscing diam donec adipiscing tristique risus. Tincidunt lobortis feugiat vivamus at augue. In tellus integer feugiat scelerisque varius morbi. Integer feugiat scelerisque varius morbi enim. Vel risus commodo viverra maecenas accumsan. Eu turpis egestas pretium aenean pharetra magna. At ultrices mi tempus imperdiet nulla malesuada. Purus non enim praesent elementum facilisis leo. Non pulvinar neque laoreet suspendisse interdum consectetur. Facilisis sed odio morbi quis commodo odio.
-
-A scelerisque purus semper eget duis at tellus at. Dolor sit amet consectetur adipiscing elit pellentesque. Enim diam vulputate ut pharetra. Velit laoreet id donec ultrices tincidunt arcu non sodales. Quis enim lobortis scelerisque fermentum dui faucibus in ornare quam. Pellentesque dignissim enim sit amet venenatis urna cursus eget. Eros donec ac odio tempor orci. Ornare quam viverra orci sagittis eu volutpat. Vitae elementum curabitur vitae nunc sed velit. Id consectetur purus ut faucibus pulvinar. Duis at tellus at urna condimentum mattis. Amet dictum sit amet justo donec. Eu mi bibendum neque egestas congue quisque egestas diam in. Diam sit amet nisl suscipit. Ornare lectus sit amet est placerat in egestas. Diam phasellus vestibulum lorem sed. Orci sagittis eu volutpat odio facilisis mauris sit. Sed felis eget velit aliquet. Congue nisi vitae suscipit tellus mauris a diam. Tempor id eu nisl nunc.
-
-Leo integer malesuada nunc vel risus commodo viverra. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Pellentesque massa placerat duis ultricies lacus sed turpis. Suspendisse potenti nullam ac tortor vitae purus. Condimentum vitae sapien pellentesque habitant morbi tristique. Egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Rhoncus mattis rhoncus urna neque viverra justo nec. Leo duis ut diam quam nulla porttitor massa id. Leo a diam sollicitudin tempor id eu nisl nunc. Commodo ullamcorper a lacus vestibulum sed arcu non odio. Orci sagittis eu volutpat odio facilisis mauris sit amet. Natoque penatibus et magnis dis parturient montes nascetur ridiculus. Tortor at risus viverra adipiscing at in tellus integer feugiat.
-
-Placerat in egestas erat imperdiet sed euismod nisi porta. Tincidunt tortor aliquam nulla facilisi. Vitae proin sagittis nisl rhoncus mattis rhoncus urna. Adipiscing elit pellentesque habitant morbi tristique senectus. Vitae nunc sed velit dignissim sodales ut eu. Nisl suscipit adipiscing bibendum est. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec. Feugiat sed lectus vestibulum mattis. Tincidunt vitae semper quis lectus nulla at. Cursus risus at ultrices mi tempus imperdiet. Non sodales neque sodales ut etiam sit amet nisl purus. Urna duis convallis convallis tellus id interdum velit laoreet id. Quam nulla porttitor massa id neque aliquam vestibulum morbi blandit. Vitae tortor condimentum lacinia quis vel eros donec ac. Fermentum posuere urna nec tincidunt praesent semper. Purus semper eget duis at tellus at urna condimentum. Quis risus sed vulputate odio ut enim. Rhoncus dolor purus non enim praesent elementum. Natoque penatibus et magnis dis parturient montes. In cursus turpis massa tincidunt dui.
+<br>
+<br>
