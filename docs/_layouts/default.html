@@ -12,18 +12,22 @@
         <title>{{site.title}} | {{page.title}}</title>
     </head>
     <body class="body-default">
-        <nav>
-            <div class="nav-bar">
-                <a class="nav-bar__logo-box" href="{{ site.baseurl }}/">
-                    {% include love-icon.html %}
-                    <div class="nav-bar__site-title"><span class="blue">oficina</span><span class="pink">löve</span></div>
-                </a>
-                <ul class="nav-bar__nav">
-                    <li><a href="{{ site.baseurl }}/" {% if page.title == "Home" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Home</a></li>
-                    <li><a href="{{ site.baseurl }}/classes" {% if page.title == "Classes" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Aulas</a></li>
-                    <li><a href="{{ site.baseurl }}/scratch" {% if page.title == "Scratch" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Scratch</a></li>
-                    <li><a href="{{ site.baseurl }}/pong" {% if page.title == "Pong" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Pong</a></li>
-                </ul>
+        <nav class="nav-bar">
+            <div class="nav-bg-mobile"></div>
+            <a class="nav-bar__logo-box" href="{{ site.baseurl }}/">
+                {% include love-icon.html %}
+                <div class="nav-bar__site-title"><span class="blue">oficina</span><span class="pink">löve</span></div>
+            </a>
+            <ul class="nav-bar__nav">
+                <li><a href="{{ site.baseurl }}/" {% if page.title == "Home" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Home</a></li>
+                <li><a href="{{ site.baseurl }}/classes" {% if page.title == "Classes" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Aulas</a></li>
+                <li><a href="{{ site.baseurl }}/scratch" {% if page.title == "Scratch" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Scratch</a></li>
+                <li><a href="{{ site.baseurl }}/pong" {% if page.title == "Pong" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Pong</a></li>
+            </ul>
+            <div class="hamburger">
+                <hr class="line1">
+                <hr class="line2">
+                <hr class="line3">                
             </div>
         </nav>
         <main class="main-default">
@@ -37,9 +41,14 @@
             <div class="main__content">
                 {{content}}
             </div>
+            <div class="flex-container">
+                {% include bunny-pink.html %} 
+            </div>  
         </main>
         <footer>
             <strong>Oficina LÖVE | UNESP - Bauru<br>2020</strong>
         </footer>
     </body>
+
+    <script src="{{site.baseurl}}/assets/scripts/script.js"></script> 
 </html>

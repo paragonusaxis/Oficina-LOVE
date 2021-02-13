@@ -6,7 +6,7 @@ permalink: /
 title: Home
 ---
 
-# print('Olá, mundo!') 
+<span class="blue header1">print('</span><span class="pink">Olá, mundo!</span>') 
 {: .header1 .blue}
 
 Este é o site da oficina LÖVE, que aconteceu na segunda metade de 2020, durante as aulas de Design de Games do curso de Design da UNESP/Bauru. Aqui você pode encontrar os projetos que foram desenvolvidos pelos alunos participantes e até mesmo a gravação das aulas teóricas. 
@@ -19,7 +19,7 @@ Se você se interessa por programação e por jogos, mas não sabe por onde come
 <br>
 <br>
 <br>
-<center><iframe class="video" src="https://www.youtube.com/embed/Qx_VfKNAYk4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<center><iframe class="video" src="https://www.youtube.com/embed/RzRoBgicqrc " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 <br>
 \* \* \*
 {: .center .header1 .blue}
