@@ -98,8 +98,10 @@ body {
 }
 
 .video {
-    width: 50vw;
-    height: 28vw;
+    width: 755px;
+    height: 424px;
+    max-width: 90%;
+    max-height: calc((100vw - 40px) / (16/9));
 }
 
 .flex-container {
