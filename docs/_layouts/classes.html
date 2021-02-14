@@ -9,7 +9,7 @@
 
         <link rel="stylesheet" href="{{ site.baseurl }}/assets/styles/main.css">
         
-        <title>{{site.title}} | {{page.title}}</title>
+        <title>{{site.title}} | Aulas</title>
     </head>
     <body class="body-default">
         <nav class="nav-bar">
@@ -30,23 +30,32 @@
                 <div class="line3"></div>          
             </div>
         </nav>
-        <main class="main-default">
-            {% include giraffe-pink.html %}
-            {% include fish-pink.html %}
-            <div class="main__sidebox main__sidebox-lilac">
-                {{content}}
-            </div>
+        <main class="main-default"> 
             <div class="main__content">
-                {{content}}
+                <div class="class-title">
+                    <div class="class-arrow">></div>
+                    <div class="class-name">Aula 1: Scratch</div>
+                </div>
+                <div class="class-line"></div>
+                <div class="class-content class-1">
+                    <center><iframe class="video" src="https://www.youtube.com/embed/RzRoBgicqrc " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                </div>
+
+                <div class="class-title">
+                    <div class="class-arrow">></div>
+                    <div class="class-name">Aula 1: Scratch</div>
+                </div>
+                <div class="class-line"></div>
+                <div class="class-content class-1">
+                    <center><iframe class="video" src="https://www.youtube.com/embed/RzRoBgicqrc " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                </div>
             </div>
-            <div class="flex-container">
-                {% include bunny-pink.html %} 
-            </div>  
         </main>
         <footer>
             <strong>Oficina LÖVE | UNESP - Bauru<br>2020</strong>
         </footer>
     </body>
 
-    <script src="{{site.baseurl}}/assets/scripts/nav_script.js"></script> 
+    <script src="{{site.baseurl}}/assets/scripts/nav_script.js"></script>
+    <script src="{{site.baseurl}}/assets/scripts/class_script.js"></script>  
 </html>

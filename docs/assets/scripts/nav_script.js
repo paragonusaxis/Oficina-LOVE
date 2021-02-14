@@ -8,7 +8,7 @@ hamburger.addEventListener('click', () => {
     navbarNav.classList.toggle('active');
     bgMobile.classList.toggle('active');
 
-    navBarLinks.forEach((link, index) => {
+    navBarLinks.forEach((link) => {
         link.style.animation = `nav-bar__nav__linkFade 0.9s ease forwards`;
     });
 });

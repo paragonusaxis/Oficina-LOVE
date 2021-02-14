@@ -1,0 +1,47 @@
+.class-title {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Courier Prime', monospace;
+}
+
+.class-arrow {
+    color: var(--pink-color);   
+    font-size: 3rem;
+    margin-right: 1rem;
+    transition: all .5s ease;
+}
+
+.arrow-active{
+    transform: rotate(90deg);
+}
+
+.class-name {
+    color: var(--blue-color);   
+    font-size: 2.5rem;
+}
+
+.class-line {
+    width: 100%;
+    height: 1px;
+    background-color: var(--dark-color);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.class-content {
+    width: 100%;
+    height: 0px;
+    opacity: 0;
+    overflow-y: hidden;
+    background-color: var(--pale-color);
+    border: 1px solid var(--dark-color);
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.class-content.active {
+    padding: 2vw;
+    opacity: 1;
+    height: auto;
+}
