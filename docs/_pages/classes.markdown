@@ -4,4 +4,7 @@ permalink: /classes/
 layout: classes
 ---
 
-Classes page
+Aulas 
+{: .header1 .pink .center}
+\* \* \*
+{: .center .header1 .blue}

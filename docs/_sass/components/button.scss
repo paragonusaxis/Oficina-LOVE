@@ -1,0 +1,39 @@
+.project-button {
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    margin: 1rem;
+    width: 10rem;
+    font-family: 'Courier Prime', monospace;
+    font-weight: bold;
+    border: 1px solid var(--dark-color);
+    border-radius: 5px;
+    box-shadow: -1px 1px 6px 3px rgba(36, 41, 46, 0.103);
+    transition: all 0.3s ease;
+}
+
+.project-button:hover {
+    box-shadow: -1px 1px 10px 3px rgba(91, 111, 126, 0.041);
+    transform: scale(1.05);
+    border-color: var(--pink-color);
+}
+
+.button-yellow {
+    background-color: var(--yelow);
+    color: var(--blue-color);
+}
+
+.button-pink {
+    background-color: var(--pale-pink);
+    color: var(--blue-color);
+}
+
+.button-turquoise {
+    background-color: var(--turquoise);
+    color: var(--pink-color);
+}
+
+.button-lilac {
+    background-color: var(--lilac);
+    color: var(--white);
+}

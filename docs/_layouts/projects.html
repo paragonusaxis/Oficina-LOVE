@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@600&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">  
+
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/styles/main.css">
+        
+        <title>{{site.title}} | {{page.title}}</title>
+    </head>
+    <body class="body-default">
+        <nav class="nav-bar">
+            <div class="nav-bg-mobile"></div>
+            <a class="nav-bar__logo-box" href="{{ site.baseurl }}/">
+                {% include love-icon.html %}
+                <div class="nav-bar__site-title"><span class="blue">oficina</span><span class="pink">löve</span></div>
+            </a>
+            <ul class="nav-bar__nav">
+                <li><a href="{{ site.baseurl }}/" {% if page.title == "Home" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Home</a></li>
+                <li><a href="{{ site.baseurl }}/classes" {% if page.title == "Classes" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Aulas</a></li>
+                <li><a href="{{ site.baseurl }}/scratch" {% if page.title == "Scratch" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Scratch</a></li>
+                <li><a href="{{ site.baseurl }}/pong" {% if page.title == "Pong" %} class="nav-bar__nav__active-page" {% else %} class="nav-bar__nav__link" {% endif %}>Pong</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>          
+            </div>
+        </nav>
+        <main class="main-projects"> 
+            <div class="black-layer"></div>
+            <div class="flex-container">
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-header">
+                        <p class="project-title">c-pong</p>
+                        <p class="project-author">Mateus Augusto Tavano</p>
+                    </div>
+                </div>
+                <div class="open-project-card">
+                    <div class="project-card-close">
+                        <div class="close-line1"></div>
+                        <div class="close-line2"></div>
+                    </div>
+                    <div class="project-header">
+                        <p class="project-title">c-pong</p>
+                        <p class="project-author">Mateus Augusto Tavano</p>
+                    </div>
+                    <center><iframe class="project-video" src="https://www.youtube.com/embed/RzRoBgicqrc " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                    <center><a class="project-button button-yellow" href="" download="">download</a></center>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-header">
+                        <p class="project-title">c-pong</p>
+                        <p class="project-author">Mateus Augusto Tavano</p>
+                    </div>
+                </div>
+                <div class="open-project-card">
+                    <div class="project-card-close">
+                        <div class="close-line1"></div>
+                        <div class="close-line2"></div>
+                    </div>
+                    <div class="project-header">
+                        <p class="project-title">c-pong</p>
+                        <p class="project-author">Mateus Augusto Tavano</p>
+                    </div>
+                    <center><iframe class="project-video" src="https://www.youtube.com/embed/RzRoBgicqrc " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                    <center><a class="project-button button-yellow" href="" download="">download</a></center>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-header">
+                        <p class="project-title">c-pong</p>
+                        <p class="project-author">Mateus Augusto Tavano</p>
+                    </div>
+                </div>
+                <div class="open-project-card">
+                    <div class="project-card-close">
+                        <div class="close-line1"></div>
+                        <div class="close-line2"></div>
+                    </div>
+                    <div class="project-header">
+                        <p class="project-title">c-pong</p>
+                        <p class="project-author">Mateus Augusto Tavano</p>
+                    </div>
+                    <center><iframe class="project-video" src="https://www.youtube.com/embed/RzRoBgicqrc " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                    <center><a class="project-button button-yellow" href="" download="">download</a></center>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-header">
+                        <p class="project-title">c-pong</p>
+                        <p class="project-author">Mateus Augusto Tavano</p>
+                    </div>
+                </div>
+                <div class="open-project-card">
+                    <div class="project-card-close">
+                        <div class="close-line1"></div>
+                        <div class="close-line2"></div>
+                    </div>
+                    <div class="project-header">
+                        <p class="project-title">c-pong</p>
+                        <p class="project-author">Mateus Augusto Tavano</p>
+                    </div>
+                    <center><iframe class="project-video" src="https://www.youtube.com/embed/RzRoBgicqrc " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                    <center><a class="project-button button-yellow" href="" download="">download</a></center>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-header">
+                        <p class="project-title">c-pong</p>
+                        <p class="project-author">Mateus Augusto Tavano</p>
+                    </div>
+                </div>
+                <div class="open-project-card">
+                    <div class="project-card-close">
+                        <div class="close-line1"></div>
+                        <div class="close-line2"></div>
+                    </div>
+                    <div class="project-header">
+                        <p class="project-title">c-pong</p>
+                        <p class="project-author">Mateus Augusto Tavano</p>
+                    </div>
+                    <center><iframe class="project-video" src="https://www.youtube.com/embed/RzRoBgicqrc " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                    <center><a class="project-button button-yellow" href="" download="">download</a></center>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-header">
+                        <p class="project-title">c-pong</p>
+                        <p class="project-author">Mateus Augusto Tavano</p>
+                    </div>
+                </div>
+                <div class="open-project-card">
+                    <div class="project-card-close">
+                        <div class="close-line1"></div>
+                        <div class="close-line2"></div>
+                    </div>
+                    <div class="project-header">
+                        <p class="project-title">c-pong</p>
+                        <p class="project-author">Mateus Augusto Tavano</p>
+                    </div>
+                    <center><iframe class="project-video" src="https://www.youtube.com/embed/RzRoBgicqrc " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                    <center><a class="project-button button-yellow" href="" download="">download</a></center>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <strong>Oficina LÖVE | UNESP - Bauru<br>2020</strong>
+        </footer>
+    </body>
+
+    <script src="{{site.baseurl}}/assets/scripts/nav_script.js"></script>
+    <script src="{{site.baseurl}}/assets/scripts/card_script.js"></script>
+</html>

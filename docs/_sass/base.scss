@@ -55,9 +55,12 @@ body {
     flex-direction: column;
 }
 
-
 .main-default {
     margin: 15rem 3vw auto;
+}
+
+.main-projects {
+    margin: 10rem 3vw auto;
 }
 
 .main__content {
@@ -104,9 +107,18 @@ body {
     max-height: calc((100vw - 40px) / (16/9));
 }
 
+.project-video {
+    width: 755px;
+    height: 424px;
+    max-width: 90%;
+    max-height: calc((100vw - 40px) / (16/9));
+    margin: 2rem;
+}
+
 .flex-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 // HIDDING IMAGES
@@ -133,6 +145,10 @@ body {
         margin: 18rem 15vw auto 15vw;
     }
     
+    .main-projects {
+        margin: 12rem 8vw auto 8vw;
+    }
+
     .main__content {
         padding: 5vw;
         text-align: justify;
@@ -201,6 +217,10 @@ body {
     
     .header1 {
         font-size: 3rem;
+    }
+
+    .project-video {
+        max-height: calc((50vw - 40px) / (16/9));
     }
 }
 
