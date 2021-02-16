@@ -77,7 +77,14 @@ body {
 }
 
 // COMMON CLASSES
-    
+.section-title {
+    background-color: var(--white);
+    padding: 1rem 2rem;
+    border: 1px solid var(--dark-color);
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}   
+
 .header1 {
     font-size: 2.5rem;
     font-family: 'Courier Prime', monospace;
@@ -135,6 +142,32 @@ body {
     width: 15rem;
     bottom: 5rem;
     margin-bottom: -10rem;
+}
+
+#whale-lilac {
+    position: relative;
+    width: 20rem;
+    bottom: -1rem;
+    margin-bottom: -10rem;
+}
+
+#fish-turquoise {
+    position: relative;
+    width: 20rem;
+    bottom: -1rem;
+    margin-bottom: -10rem;
+}
+
+
+#bird-yellow {
+    position: relative;
+    width: 20rem;
+    bottom: 5rem;
+    margin-bottom: -10rem;
+}
+
+#sheep-yellow {
+    display: none;
 }
 
 // SITE FOR LARGE SCREENS
@@ -213,6 +246,23 @@ body {
         right: 3rem;
         bottom: 5rem;
         margin-bottom: -10rem;
+    }
+
+    #bird-yellow {
+        position: relative;
+        width: 15vw;
+        right: 3rem;
+        bottom: 5rem;
+        margin-bottom: -10rem;
+    }
+
+    #sheep-yellow {
+        display: block;
+        width: 20vw;
+        position: absolute;
+        right: 5rem;
+        top: 20rem; 
+        transform: scaleX(-1);
     }
     
     .header1 {

@@ -30,7 +30,11 @@
                 <div class="line3"></div>          
             </div>
         </nav>
-        <main class="main-default"> 
+        <main class="main-default">
+            {% include sheep-yellow.html %}
+            <div class="flex-container">
+                <div class="header1 pink section-title">_aulas</div>
+            </div>
             <div class="main__content">
                 {{content}}
                 <div class="class-title">
@@ -99,6 +103,9 @@
                     <a class="class-link" href="" download="">♥ Slides</a> 
                 </div>
             </div>
+            <div class="flex-container">
+                {% include bird-yellow.html %}
+            </div> 
         </main>
         <footer>
             <strong>Oficina LÖVE | UNESP - Bauru<br>2020</strong>

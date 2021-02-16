@@ -1,7 +1,7 @@
 ---
 title: Scratch
 permalink: /scratch/
-layout: projects
+layout: scratch
 ---
 
 Scratch projects
